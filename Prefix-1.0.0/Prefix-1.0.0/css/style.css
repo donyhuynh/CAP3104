@@ -71,6 +71,7 @@ h2 {
 }
 
 h3 {
+    color:white;
     font-size: 18px
 }
 
@@ -375,6 +376,12 @@ button {
     background-color: #ffffff;
 }
 
+#banner_slider .img{
+    
+max-width: 500px;
+    height: 400px;
+}
+
 #banner_slider a.carousel-control-prev {
     left: -15px;
     top: 263px;
@@ -438,7 +445,6 @@ button {
         opacity: 0;
     }
 }
-
 
 /* banner section end */
 
@@ -720,7 +726,7 @@ input.enter_bt::placeholder {
 
 .call_bt.active a {
     color: #ffffff;
-    background-color: #28454e;
+    background-color: #28454e; 
 }
 
 #main_slider a.carousel-control-prev {
@@ -733,6 +739,15 @@ input.enter_bt::placeholder {
     top: 150px;
 }
 
+.carousel-dark .carousel-indicators [data-bs-target], .carousel-indicators [data-bs-target] {
+  background-color: var(--bs-red);
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
 #main_slider .carousel-control-next,
 #main_slider .carousel-control-prev {
     width: 40px;
@@ -749,7 +764,10 @@ input.enter_bt::placeholder {
     color: #00c8ac;
 }
 
-
+.carousel-caption {
+    width:fill;
+    background: rgba(0, 0, 0, 1);
+}
 /* blog section end */
 
 
