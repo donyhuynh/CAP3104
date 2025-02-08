@@ -533,6 +533,66 @@ input.enter_bt::placeholder {
 /* select box section end */
 
 
+/* New Arrivals section start */
+
+.arrivals_section {
+    width: 100%;
+    float: left;
+}
+
+.arrivals_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #232323;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.arrivals_text {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    color: #232323;
+    margin-left: 0px;
+}
+
+.arrivals_box {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.arrivals_box_left {
+    width: 220px;
+    height: auto;
+    padding: 25px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.arrivals_box_right {
+    width: 220px;
+    height: auto;
+    padding: 25px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.arrivals_box_2 {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 240px;
+    position: relative;
+}
+
+
+
 /* services section start */
 
 .services_section {
